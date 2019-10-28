@@ -1,9 +1,12 @@
 <html>
     <head>
         <title>TargetNews</title>
+        <Header>
         <style type="text/css">
+        /* Whole Page Background color*/
         body{
             background-color:rgb(41, 40, 40);}
+        /* Navigation Bar color and styling */
         #page {   
                max-width: 1300px;
                min-width: 1200px;
@@ -13,11 +16,13 @@
                border-radius: 5px;    
                background-color: #000000;
                }
+        /* logo Position Setting */
         #logo {
                position: absolute;
                top: -16px;
                left: 3px;      
                }
+        /*Navigation Bar Inside options Position and Styling */
         #Nav 
             {   
              padding: -15px;    
@@ -26,31 +31,37 @@
              left: 150px;
              top: 29px
              }
+        /* Navigation Bar Options Position,Styling and Color Settings */
         li  {
              display: inline-block;
              color: rgb(255, 255, 255);
              margin: 0px 15px;
             }
+        /* Search box and button Position Settings */
         #Search {
                  display: inline-block;
                  position: absolute;
                  top: 27px;
                  left: 1060px;
             }
+        /* Search button Font Color and Styling Settings*/
         #Searchbutton {
                        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
                        background-color: rgb(29, 92, 209);
                        color: #fffafa;
                        }
+        /* Search button clicking special effects Settings */
         #Searchbutton:hover {
                              color: aquamarine;
                              }
+        /* Navigation bar options color,Styling and Text Styling Settings*/
         a   {    
              color: #fffafa;    
              text-transform: uppercase;    
              text-decoration: none;    
              padding: 6px 18px 5px 18px;
             }
+        /* Navigation bar options clicking Special effects Settings*/
         a:hover, a.on {
                        color: #cc3333;
                        background-color: #fffdfd;
@@ -58,10 +69,13 @@
         </style>
     </head>
 <body>
-<div id="page">    
+        /* Navigation bar body */
+<div id="page">
+        /* Logo Location and height,width Settings */    
   <div id="logo"> 
   <img src="I:\Repo\NewsWebProject1\Weblogo.PNG" width="180" height="150"/>
   </div>
+        /* Navigation bar options */
       <ul id="Nav">
                  <li><a href="#">Home</li></a>
                  <li><a href="#">NewsCategories</li></a>
@@ -70,10 +84,14 @@
                  <li><a href="#">Contact Us</li></a>
       </ul>
 </div>
+        /* Search box */
 <div>
     <form action="" id="Search">
                                <input type="Search" name="Search" />        <input type="submit" value="Search" id="Searchbutton" />
     </form>
 </div>
 </body>
+</Header>
+<footer>
+</footer>
 </html>
