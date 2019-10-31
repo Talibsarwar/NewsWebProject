@@ -66,6 +66,35 @@
                        color: #cc3333;
                        background-color: #fffdfd;
                        }
+        /* Sliders Height width position and animation Settings*/
+        #Slider {
+                 width: 70%;
+                 height: 400px;
+                 position: absolute;
+                 left: 50%;
+                 top: 30%;
+                 transform: translate(-50%,-50%);
+                 background-image:url("I:Repo/NewsWebProject1/International News.jpg");
+                 background-size: 100% 100%;
+                 box-shadow: 1px 2px 10px 5px white;
+                 animation: slider 15s infinite linear;
+                 }
+        /* Slider per percent frame settings*/
+        @keyframes slider{
+                          0%{ background-image:url("I:Repo/NewsWebProject1/International News.jpg");}
+                          
+                          10%{ background-image:url("I:Repo/NewsWebProject1/National News.png");}
+
+                          20%{ background-image:url("I:Repo/NewsWebProject1/Politics News.jpg");}
+                          
+                          35%{ background-image:url("I:Repo/NewsWebProject1/Bussiness News.jpg");}
+
+                          45%{ background-image:url("I:Repo/NewsWebProject1/Health News.jpg");}
+
+                          55%{ background-image:url("I:Repo/NewsWebProject1/Science and Technology News.jpg");}
+
+                          85%{ background-image:url("I:Repo/NewsWebProject1/Sports News.jpg");}
+                         }
         </style>
     </head>
 <body>
@@ -87,6 +116,8 @@
         <!--Search box-->
 <div>
     <form action="" id="Search"><input type="Search" name="Search" />    <input type="submit" value="Search" id="Searchbutton" /></form>
+</div>
+<div id=Slider>             
 </div>
 </body>
 </Header>
