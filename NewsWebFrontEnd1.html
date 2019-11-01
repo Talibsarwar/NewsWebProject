@@ -95,6 +95,7 @@
 
                           85%{ background-image:url("I:Repo/NewsWebProject1/Sports News.jpg");}
                          }
+        /*Footer main body Styling settings*/
         #footerelements {
                          position: absolute;
                          bottom: 0px;
@@ -102,23 +103,26 @@
                          min-width: 1200px;
                          height: 100px;
                          margin: 10px auto 0px auto;
-                        padding: 27px;    
-                        border: 2px solid rgb(0, 0, 0);
-                        border-radius: 5px;    
-                        background-color: #000000;
+                         padding: 27px;    
+                         border: 2px solid rgb(0, 0, 0);
+                         border-radius: 5px;    
+                         background-color: #000000;
                          }
+        /*About Us heading color and position settings*/
         #first {
                 position: absolute;
                 bottom: 96px;
                 left: 10px;
                 color: white;
                 }
+        /*About Us horizontal line size and position settings*/
         #one {
               position: absolute;
               bottom: 96px;
               left: 10px;
               width: 190;
               }
+        /*About Us paragraph position,color and font settings*/
         #aboutus {
                   position: absolute;
                   bottom: 25px;
@@ -126,23 +130,27 @@
                   color: white;
                   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                   }
+        /*Contact Us heading color and position settings*/
         #Second {
                  position: absolute;
                  bottom: 96;   
                  left: 360px;
                  color: white;
                  }
+        /*Contact Us horizontal line size and position settings*/
         #two {
               position: absolute;
               bottom: 96px;
               left: 360px;
               width: 190;
               }
+        /*Contact Us gmail icon position Settings*/
         #gmailicon {
                     position: absolute;
                     bottom: 60px;
                     left: 360px;
                     }
+        /*Contact Us paragraph position,color and font settings*/
         #ContactUs {
                     position: absolute;
                     bottom: 60px;
@@ -150,18 +158,76 @@
                     color: white;
                     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                     }
+        /*Our Social Plateforms heading color and position settings*/
         #Third {
                 position: absolute;
                 bottom: 96;   
                 left: 630px;
                 color: white;
                 }
+        /*Our Social Plateforms horizontal line size and position settings*/
         #Three {
                 position: absolute;
                 bottom: 96px;
                 left: 630px;
-                width: 190;
+                width: 330;
                 }
+        /*Our Social Plateforms Facebook icon position Settings*/
+        #FBicon {
+                 position: absolute;
+                 bottom: 60px;
+                 left: 630px;
+                }
+        /*Our Social Plateforms Facebook paragraph position,color and font settings*/
+        #Fb {
+            position: absolute;
+            bottom: 60px;
+            left: 670px;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             }
+        /*Our Social Plateforms Twitter icon position Settings*/
+        #Twittericon {
+                      position: absolute;
+                      bottom: 16px;
+                      left: 616px;
+                      }
+        /*Our Social Plateforms Twitter paragraph position,color and font settings*/
+        #Twitter {
+                  position: absolute;
+                  bottom: 16px;
+                  left: 670px;
+                  color: white;
+                  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  }
+        /*Our Location heading color and position settings*/  
+        #Fourth {
+                 position: absolute;
+                 bottom: 96;   
+                 left: 1000px;
+                 color: white;
+                 }
+        /*Our Location horizontal line size and position settings*/
+        #four {
+               position: absolute;
+               bottom: 96px;
+               left: 1000px;
+               width: 220;
+               }
+        /*Our Location Location icon position Settings*/
+        #locationicon {
+                       position: absolute;
+                       bottom: 60px;
+                       left: 1000px;
+                       }
+        /*Our Location paragraph position,color and font settings*/
+        #location {
+                   position: absolute;
+                   bottom: 60px;
+                   left: 1040px;
+                   color: white;
+                   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   }
         </style>
     </head>
 <body>
@@ -191,23 +257,41 @@
 <section class= content>
 
 </section>
+<!--This is footer main body-->
 <div id=footerelements>
 <footer>
+        <!--About Us heading and paragraph and a horizontal line-->
         <h1 id=first>About Us</h1>
         <hr id=one />
         <p id=aboutus>This is a website which is a plateform to provide</br>
         you the important news around the world faster</br> 
         then anyone</p>
+        <!--Contact Us heading,paragraph and gmailicon and a horizontal line-->
         <h1 id=Second>ContactUs</h1>
         <hr id=two />
         <div id=gmailicon>
-        <img src="I:\Repo\NewsWebProject1\Gmail Icon.png" width="40" height="40" />
+                         <img src="I:\Repo\NewsWebProject1\Gmail Icon.png" width="40" height="40" />
         </div>
         <p id=ContactUs> TargetNews.24X7@gmail.com </p>
+        <!--Our Social Plateforms Facebook,Twitter Headings,paragraphs and  icons and a horizontal line-->
         <h1 id=Third>Our Social Plateforms</h1>
         <hr id=three />
-        <p id=SocialPlateforms></p>
-    </div>  
+        <div id=FBicon>
+                       <img src="I:\Repo\NewsWebProject1\Facebookicon.png" width="40" height="40" />
+        </div>
+        <p id=Fb>TargetNews24X7@facebook.com</p>
+        <div id=Twittericon>
+                       <img src="I:\Repo\NewsWebProject1\Twittericon.png" width="70" height="40" />
+        </div>
+        <p id=Twitter>TargetNews24X7@twitter.com</p>
+        <!--Our Location Heading,paragraph and icon and a horizontal line-->
+        <h1 id=Fourth>Our Location</h1>
+        <hr id=four />
+        <div id=locationicon>
+                       <img src="I:\Repo\NewsWebProject1\Locationicon.png" width="40" height="40" />
+        </div>
+        <p id=location>Karachi,Pakistan</p>
+        </div>  
 </footer>
 </div>
 </body>
