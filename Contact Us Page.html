@@ -1,0 +1,357 @@
+<html>
+    <head>
+        <title>TargetNews</title>
+        <Header>
+        <style type="text/css">
+        /* Whole Page body Background color*/
+        body{
+            background-color:rgb(41, 40, 40);}
+        /* Navigation Bar color and styling */
+        #Navbody {   
+               max-width: 1300px;
+               min-width: 1200px;
+               margin: 10px auto 10px auto;
+               padding: 27px;    
+               border: 2px solid rgb(250, 243, 243);
+               border-radius: 5px;    
+               background-color: #000000;
+               }
+        /* logo Position Setting */
+        #logo {
+               position: absolute;
+               top: -16px;
+               left: 3px;      
+               }
+        /*Navigation Bar Inside options Position and Styling */
+        #Nav 
+            {   
+             padding: -15px;    
+             margin: 0px auto;        
+             position: absolute;
+             left: 150px;
+             top: 29px
+             }
+        /* Navigation Bar Options Position,Styling and Color Settings */
+        li  {
+             display: inline-block;
+             color: rgb(255, 255, 255);
+             margin: 0px 15px;
+            }
+        /* Search box and button Position Settings */
+        #Search {
+                 display: inline-block;
+                 position: absolute;
+                 top: 27px;
+                 left: 1020px;
+            }
+        /* Search button Font Color and Styling Settings*/
+        #Searchbutton {
+                       font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                       background-color: rgb(29, 92, 209);
+                       color: #fffafa;
+                       }
+        /* Search button clicking special effects Settings */
+        #Searchbutton:hover {
+                             color: aquamarine;
+                             }
+        /* Navigation bar options color,Styling and Text Styling Settings*/
+        a   {    
+             color: white;    
+             text-transform: uppercase;    
+             text-decoration: none;    
+             padding: 6px 18px 5px 18px;
+            }
+        /* Navigation bar options clicking Special effects Settings*/
+        a:hover, a.on {
+                       color: #cc3333;
+                       }
+        /* Sliders Height width position and animation Settings*/
+        #Slider {
+                 width: 70%;
+                 height: 400px;
+                 position: absolute;
+                 left: 50%;
+                 top: 31%;
+                 transform: translate(-50%,-50%);
+                 background-image:url("I:Repo/NewsWebProject1/International News.jpg");
+                 background-size: 100% 100%;
+                 box-shadow: 1px 2px 10px 5px white;
+                 animation: slider 15s infinite linear;
+                 }
+        /* Slider per percent frame settings*/
+        @keyframes slider{
+                          0%{ background-image:url("I:Repo/NewsWebProject1/International News.jpg");}
+                          
+                          10%{ background-image:url("I:Repo/NewsWebProject1/National News.png");}
+
+                          20%{ background-image:url("I:Repo/NewsWebProject1/Politics News.jpg");}
+                          
+                          35%{ background-image:url("I:Repo/NewsWebProject1/Bussiness News.jpg");}
+
+                          45%{ background-image:url("I:Repo/NewsWebProject1/Health News.jpg");}
+
+                          55%{ background-image:url("I:Repo/NewsWebProject1/Science and Technology News.jpg");}
+
+                          85%{ background-image:url("I:Repo/NewsWebProject1/Sports News.jpg");}
+                         }
+        /*Footer main body Styling settings*/
+        #footerelements {
+                         position: absolute;
+                         bottom: -110px;
+                         max-width: 1300px;
+                         min-width: 1200px;
+                         height: 100px;
+                         padding: 27px;    
+                         border: 2px solid rgb(0, 0, 0);
+                         border-radius: 5px;    
+                         background-color: #000000;
+                         }
+        /*About Us heading color and position settings*/
+        #first {
+                position: absolute;
+                bottom: 96px;
+                left: 10px;
+                color: white;
+                }
+        /*About Us horizontal line size and position settings*/
+        #one {
+              position: absolute;
+              bottom: 96px;
+              left: 10px;
+              width: 190;
+              }
+        /*About Us paragraph position,color and font settings*/
+        #aboutus {
+                  position: absolute;
+                  bottom: 25px;
+                  left: 10px;
+                  color: white;
+                  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  }
+        /*Contact Us heading color and position settings*/
+        #Second {
+                 position: absolute;
+                 bottom: 96;   
+                 left: 355px;
+                 color: white;
+                 }
+        /*Contact Us horizontal line size and position settings*/
+        #two {
+              position: absolute;
+              bottom: 96px;
+              left: 355px;
+              width: 190;
+              }
+        /*Contact Us gmail icon position Settings*/
+        #gmailicon {
+                    position: absolute;
+                    bottom: 60px;
+                    left: 335px;
+                    }
+        /*Contact Us paragraph position,color and font settings*/
+        #ContactUs {
+                    position: absolute;
+                    bottom: 60px;
+                    left: 396px;
+                    color: white;
+                    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    }
+        /*Our Social Plateforms heading color and position settings*/
+        #Third {
+                position: absolute;
+                bottom: 96;   
+                left: 630px;
+                color: white;
+                }
+        /*Our Social Plateforms horizontal line size and position settings*/
+        #Three {
+                position: absolute;
+                bottom: 96px;
+                left: 630px;
+                width: 330;
+                }
+        /*Our Social Plateforms Facebook icon position Settings*/
+        #FBicon {
+                 position: absolute;
+                 bottom: 60px;
+                 left: 610px;
+                }
+        /*Our Social Plateforms Facebook paragraph position,color and font settings*/
+        #Fb {
+            position: absolute;
+            bottom: 60px;
+            left: 670px;
+            color: white;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             }
+        /*Our Social Plateforms Twitter icon position Settings*/
+        #Twittericon {
+                      position: absolute;
+                      bottom: 16px;
+                      left: 596px;
+                      }
+        /*Our Social Plateforms Twitter paragraph position,color and font settings*/
+        #Twitter {
+                  position: absolute;
+                  bottom: 16px;
+                  left: 670px;
+                  color: white;
+                  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                  }
+        /*Our Location heading color and position settings*/  
+        #Fourth {
+                 position: absolute;
+                 bottom: 96;   
+                 left: 1000px;
+                 color: white;
+                 }
+        /*Our Location horizontal line size and position settings*/
+        #four {
+               position: absolute;
+               bottom: 96px;
+               left: 1000px;
+               width: 220;
+               }
+        /*Our Location Location icon position Settings*/
+        #locationicon {
+                       position: absolute;
+                       bottom: 63px;
+                       left: 1000px;
+                       }
+        /*Our Location paragraph position,color and font settings*/
+        #location {
+                   position: absolute;
+                   bottom: 60px;
+                   left: 1040px;
+                   color: white;
+                   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                   }
+        #form {
+               background-color: rgb(41, 40, 40);
+               position: absolute;
+               top: 530px;
+               left: 190px;
+               height: 280px;
+               width: 867px;
+               }
+        #FeedBack {
+                   position: absolute;
+                   top: -30px; 
+                   left: 340px;
+                   background-color: rgb(41, 40, 40);
+                   color: white;
+                   font-size: 50px;
+                   }
+        #Email {
+                position: absolute;
+                top: 30px;
+                left: 10px;
+                color: white;
+                font-size: 30px;
+                }
+        #Emailbox {
+                   font-size: 20px;
+                   width: 300px;
+                   }
+        #Comments {
+                   position: absolute;
+                   top: 100px;
+                   left: 10px;
+                   color: white;
+                   font-size: 30px;
+                   }
+        #Commentbox {
+                     resize: none;
+                     font-size: 15px;
+                     width: 870px;
+                     height: 100px;
+                     }
+        #Submit {
+                 position: absolute;
+                 top: 250px;
+                 left: 780px;
+                 width: 100px;
+                 height: 30px;
+                 background-color: rgb(29, 92, 209);
+                 color: #fffafa;
+                 font-size: 20px;
+                 }
+        #Submit:hover {
+                       color: aquamarine;
+                       }
+        </style>
+    </head>
+<body>
+        <!--Navigation bar body--> 
+<div id="Navbody">
+        <!--Logo Location and height,width Settings-->    
+  <div id="logo"> 
+  <img src="Weblogo.PNG" width="180" height="150"/>
+  </div>
+        <!--Navigation bar options-->
+      <ul id="Nav">
+                 <li><a href="Home Page.html">Home</li></a>
+                 <li><a href="News Categories Page.html">NewsCategories</li></a>
+                 <li><a href="Top News Page.html">Top News</li></a>
+                 <li><a href="About Us Page.html">About Us</li></a>
+                 <li><a href="Contact Us Page.html">Contact Us</li></a>
+      </ul>
+</div>
+        <!--Search box-->
+<div>
+    <form action="" id="Search"><input type="search" name="search" />    <input type="submit" value="Search" id="Searchbutton" /></form>
+</div>
+<!--Slider part-->
+<div id=Slider>             
+</div>
+</Header>
+<!--Main Body of Content-->
+<section class=content>
+    <fieldset id="form">
+        <legend id="FeedBack">FeedBack</legend>
+        <label id="Email">Email:<br /> 
+        <input type="text" name="email" required="required" placeholder="TargetNews.24X7@gmail.com" id="Emailbox"/></label><br />
+        <label id="Comments">Comments:<br />
+        <textarea name="comments" cols="22" rows="6" required="required" id="Commentbox"></textarea></label>
+        <input type="submit" value="Submit"  id="Submit"/>
+    </fieldset>
+</section>
+<!--This is footer main body-->
+<div id=footerelements>
+<footer>
+        <!--About Us heading and paragraph and a horizontal line-->
+        <h1 id=first>About Us</h1>
+        <hr id=one />
+        <p id=aboutus>This is a website which is a plateform to provide</br>
+        you the important news around the world faster</br> 
+        then anyone</p>
+        <!--Contact Us heading,paragraph and gmailicon and a horizontal line-->
+        <h1 id=Second>ContactUs</h1>
+        <hr id=two />
+        <div id=gmailicon>
+                        <a href="Contact Us Page.html"><img src="Gmail Icon.png" width="40" height="40" /></a>
+        </div>
+        <p id=ContactUs>TargetNews.24X7@gmail.com </p>
+        <!--Our Social Plateforms Facebook,Twitter Headings,paragraphs and  icons and a horizontal line-->
+        <h1 id=Third>Our Social Plateforms</h1>
+        <hr id=three />
+        <div id=FBicon>
+                      <a href="targetNews.24x7@facebook.com"><img src="Facebookicon.png" width="40" height="40" /></a>
+        </div>
+        <p id=Fb>TargetNews24X7@facebook.com</p>
+        <div id=Twittericon>
+                      <a href="targetNews.24x7@Twitter.com"><img src="Twittericon.png" width="70" height="40" /></a>
+        </div>
+        <p id=Twitter>TargetNews24X7@twitter.com</p>
+        <!--Our Location Heading,paragraph and icon and a horizontal line-->
+        <h1 id=Fourth>Our Location</h1>
+        <hr id=four />
+        <div id=locationicon>
+                       <img src="Locationicon.png" width="40" height="40" />
+        </div>
+        <p id=location>Karachi,Pakistan</p>
+        </div>  
+</footer>
+</div>
+</body>
+</html>
